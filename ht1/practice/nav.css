@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: aliceblue;
+}
+
+div>h1 {
+  text-transform: uppercase;
+  font-weight: 100;
+
+  border: 2px solid orchid;
+  border-radius: 20px;
+  padding: 1px 8px;
+  text-align: center;
+  display: inline-block;
+}
+
+
+
+
+.btn {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 21px;
+  background-color: brown;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+
+
+
+.header {
+  /*background-color: rgb(145, 141, 141);*/
+  position: relative;
+  top: 15px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  column-gap: 20px;
+
+}
+
+.navbar a {
+  border: 2px solid rgb(50, 184, 38);
+  padding: 2px 5px;
+  background-color: rgb(12, 66, 66);
+  color: aliceblue;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 70px;
+  font-size: 1.1em;
+
+}
+
+#img img {
+  width: 50%;
+  height: fit-content;
+
+}
+
+#img {
+  width: 50%;
+  text-align: center;
+}
+
+#main {
+  width: 50%;
+  height: auto;
+  text-align-last: center;
+
+
+}
+
+#main h3 {
+  border-top: 2px solid orchid;
+  text-transform: capitalize;
+ 
+
+}
+
+#main p {
+  line-break: loose;
+  text-transform: capitalize;
+  line-break: auto;
+  border-bottom: 2px solid orchid;
+}
+#main .col1{
+
+display: inline;
+}
+
+span {
+  color:#13a84e;
+  
+}
+
+#top {
+
+
+  /* position: relative; */
+  /* top: 20px; */
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  padding-left :100px;;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  flex-direction:row-reverse;
+
+}
+
+.btn {
+  text-transform: capitalize;
+  font-size: 1.1em;
+}
+
+.about {
+  width: 100%;
+  /* text-align: center; */
+  
+  /* border: solid red; */
+  text-transform: capitalize;
+}
+.about > h2{
+  
+margin: 0px auto;
+ float:center;
+ text-align: center;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  /* display: inline-block; */
+  
+  /* border: 2px solid green; */
+  /* background-color: rgb(54, 70, 70); */
+}
+
+#pera{
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-color: rgb(26, 26, 36);
+  text-align: center;
+  
+
+  width: 50%;
+  margin: 25px auto;
+  line-height: 25px;
+
+}
